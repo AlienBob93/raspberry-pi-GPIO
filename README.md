@@ -8,18 +8,18 @@ The script is Python, it uses also the twitter API.
 First you need to creat a twitter app, see https://dev.twitter.com/apps/new
 Then you should take your credentials, rename the file config.ini.dist to config.ini and enter your twitter app tokens in the file:
 
-OAUTH_TOKEN=xxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxxx
-OAUTH_SECRET=xxxxxxxxxxxxxx
-CONSUMER_KEY=xxxxxxxxxxxxxx
-CONSUMER_SECRET=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+    OAUTH_TOKEN=xxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxxx
+    OAUTH_SECRET=xxxxxxxxxxxxxx
+    CONSUMER_KEY=xxxxxxxxxxxxxx
+    CONSUMER_SECRET=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
 
 Now you need to setup your pyhton environment. 
 
 You will need the folowing libs: 
 
-RPi.GPIO - This is the library that comunicates with your raspberry pi thru gpio, if you already used arduino and the wiring language you will be familiar with this.
+RPi.GPIO: This is the library that comunicates with your raspberry pi thru gpio, if you already used arduino and the wiring language you will be familiar with this.
 
-Tweepy - Python Twitter Library, basycaly it helps you with the authentication and twitter api.
+Tweepy: Python Twitter Library, basycaly it helps you with the authentication and twitter api.
 
 I also used a lib from Adafruit, the Adafruit_CharLCD, this is for the LCD. This is the Adafruit_CharLCD.py file, no need to install.
 
