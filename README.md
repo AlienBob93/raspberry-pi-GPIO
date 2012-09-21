@@ -9,11 +9,8 @@ First you need to creat a twitter app, see https://dev.twitter.com/apps/new
 Then you should take your credentials, rename the file config.ini.dist to config.ini and enter your twitter app tokens in the file:
 
 OAUTH_TOKEN=xxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxxx
-
 OAUTH_SECRET=xxxxxxxxxxxxxx
-
 CONSUMER_KEY=xxxxxxxxxxxxxx
-
 CONSUMER_SECRET=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
 
 Now you need to setup your pyhton environment. 
