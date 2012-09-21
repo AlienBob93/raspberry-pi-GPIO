@@ -9,8 +9,11 @@ First you need to creat a twitter app, see https://dev.twitter.com/apps/new
 Then you should take your credentials, rename the file config.ini.dist to config.ini and enter your twitter app tokens in the file:
 
 OAUTH_TOKEN=xxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxxx
+
 OAUTH_SECRET=xxxxxxxxxxxxxx
+
 CONSUMER_KEY=xxxxxxxxxxxxxx
+
 CONSUMER_SECRET=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
 
 Now you need to setup your pyhton environment. 
@@ -33,8 +36,8 @@ Instaling Pip:
 
 Installing libs with Pip:
 
-   $ sudo pip install rpi.gpio
-   $ sudo pip install tweepy
+    $ sudo pip install rpi.gpio
+    $ sudo pip install tweepy
 
 Wiring:
 I used the Adafruit raspberry pi cobbler kit to easly connect the GPIO to a breadboard.
@@ -42,9 +45,10 @@ I used the Adafruit raspberry pi cobbler kit to easly connect the GPIO to a brea
 http://learn.adafruit.com/drive-a-16x2-lcd-directly-with-a-raspberry-pi/wiring
 
 Later I'll upload the schematics.
+
 Connect your GPIO and run the python script:
 
-$ sudo python gpio_lcd_twitter_client.py 
+    $ sudo python gpio_lcd_twitter_client.py 
 
 And you're done!
  
